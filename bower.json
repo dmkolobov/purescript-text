@@ -1,5 +1,10 @@
 {
-  "name": "texter",
+  "name": "purescript-text",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dmkolobov/purescript-text"
+  },
   "ignore": [
     "**/.*",
     "node_modules",
