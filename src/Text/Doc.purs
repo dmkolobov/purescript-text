@@ -63,7 +63,7 @@ flow (Block pad d ds) docR
                               $ flow last docR 
       Nothing -> block <<< singleton $ flow d docR
 
-infixl 4 flow as :->
+infixr 4 flow as :->
 
 indentBlock :: Int -> DocF -> DocF 
 indentBlock n (Inline pad ss)  = Inline pad ss 
